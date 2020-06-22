@@ -1,5 +1,7 @@
 package main
 
+//Your runtime beats 93.14 % of golang submissions.
+//Your memory usage beats 67.46 % of golang submissions.
 func twoSumI(nums []int, target int) []int {
 	var numsMap = make(map[int]int, len(nums))
 	for i := range nums {
@@ -13,6 +15,8 @@ func twoSumI(nums []int, target int) []int {
 	return []int{}
 }
 
+//Your runtime beats 95.79 % of golang submissions.
+//Your memory usage beats 71.48 % of golang submissions.
 func twoSumII(numbers []int, target int) []int {
 	var i, j = 0, len(numbers) - 1
 	var sum int
@@ -37,6 +41,8 @@ type TreeNode struct {
 }
 
 //twoSum IV
+//Your runtime beats 70.64 % of golang submissions
+//Your memory usage beats 12.99 % of golang submissions.
 func findTarget(root *TreeNode, k int) bool {
 	if root.Right == nil && root.Left == nil {
 		return false

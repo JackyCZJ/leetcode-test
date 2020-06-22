@@ -2,7 +2,8 @@ package main
 
 import "sort"
 
-
+//Your runtime beats 67.75 % of golang submissions.
+//Your memory usage beats 44.99 % of golang submissions.
 func groupAnagrams(strs []string) [][]string {
 	strsMap := make(map[string][]string)
 	res := new([][]string)
